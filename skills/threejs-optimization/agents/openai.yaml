@@ -1,0 +1,4 @@
+interface:
+  display_name: "Three.js 性能优化"
+  short_description: "定位 Three.js CPU、GPU 与内存瓶颈并优化 GLB 模型"
+  default_prompt: "使用 $threejs-optimization 优化当前 Three.js 场景，先定位 CPU、GPU、内存和 GLB 的瓶颈，再复测受影响的指标。"
