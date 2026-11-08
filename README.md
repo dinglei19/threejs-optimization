@@ -1,5 +1,7 @@
 # Three.js Optimization Skill
 
+简体中文 · [English](README.en.md)
+
 `$threejs-optimization` 是用于 Codex 的 Three.js 性能优化 Skill。在保留现有画质、业务规则、状态更新顺序和交互结果的前提下，定位瓶颈、实施改动，并用同一场景比较优化前后的表现。
 
 - **运行时**用 Performance trace 查主线程热点，分析 GPU 耗时、draw calls、JS 堆和显存。按实测决定是否合批、实例化，或在主线程、Worker 和 GPU 之间调整计算。
